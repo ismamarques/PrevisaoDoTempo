@@ -23,7 +23,7 @@ namespace PrevisaoDoTempo.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("BuscaTemperaturas")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
