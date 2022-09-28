@@ -35,5 +35,11 @@ namespace PrevisaoDoTempo.Controllers
             })
             .ToArray();
         }
+       [HttpGet("Ola")]
+
+       public string OlaMundo()
+        {
+            return "Ola Mundo" + DateTime.Now;
+        }
     }
 }
